@@ -107,3 +107,82 @@ body {
   height: 35%;
   background: #000;
 } */
+
+@media screen and (min-width: 335px ) {
+ .clock .number {
+	width: 90%;
+	height: 18%;
+}
+.clock .hand.second {
+	height: 7%;
+}
+
+.clock .hand.minute {
+	height: 7%;
+}
+
+.clock .hand {
+	height: 6%;
+}
+}
+
+@media screen and (min-width: 411px ) {
+ .clock .number {
+	width: 72%;
+	height: 18%;
+}
+.clock .hand.second {
+	height: 7%;
+}
+
+.clock .hand.minute {
+	height: 7%;
+}
+
+.clock .hand {
+	height: 6%;
+}
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px ) {
+ .clock .number {
+	width: 39%;
+	height: 18%;
+}
+.clock .hand.second {
+	height: 7%;
+}
+
+.clock .hand.minute {
+	height: 7%;
+}
+
+.clock .hand {
+	height: 6%;
+}
+}
+
+
+
+@media screen and (min-width: 1024px) {
+ .clock .number {
+	width: 22%;
+	height: 45%;
+}
+.clock .hand.second {
+	height: 12%;
+}
+
+.clock .hand.minute {
+	height: 18%;
+}
+
+.clock .hand {
+	height: 14%;
+}
+}
